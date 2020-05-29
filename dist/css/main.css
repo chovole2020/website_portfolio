@@ -9,7 +9,8 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px;
-    background: #fff; }
+    background: #fff;
+    transition: all 0.5s ease-out; }
   .menu-btn.close {
     transform: rotate(180deg); }
     .menu-btn.close .btn-line:nth-child(1) {
@@ -178,7 +179,8 @@ main {
   main .icons {
     margin-top: 1rem; }
     main .icons a {
-      padding: 0.4rem; }
+      padding: 0.4rem;
+      color: #fff; }
       main .icons a:hover {
         color: #eece1a;
         transition: all 0.5s ease-out; }

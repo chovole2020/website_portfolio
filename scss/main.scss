@@ -9,7 +9,7 @@
 body {
   @include background;
   background: $primaryCol;
-  color: #fff;
+  color: set-text-color($primaryCol);
   height: 100%;
   margin: 0;
   font-family: "Oswald", sans-serif;
@@ -58,6 +58,7 @@ main {
 
     a {
       padding: 0.4rem;
+      color: set-text-color($primaryCol);
 
       &:hover {
         color: $secondaryCol;
